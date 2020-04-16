@@ -11,4 +11,5 @@ print(f'Número digitado {n}, dobro do número digitado {d}, triplo {t} e a raiz
 
 n = int(input('Digite um número: '))
 
-print(f'Número digitado é {n}, o dobro do número digitado {n * 2}, triplo {n * 3} e a raiz quadrada é {n ** (1/2)}')
+print(f'Número digitado é {n}, o dobro do número digitado {n * 2}, triplo {n * 3} e a raiz quadrada {pow (n, (1/2))}' )
+
